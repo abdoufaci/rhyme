@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  margin-bottom: -15vh;
+}
+
+.logo {
+  padding-top: 30px;
+}
+
+.nav_links {
+  display: flex;
+}
+
+.nav_links > li {
+  margin-right: 30px;
+}
+
+.nav_links > li > a {
+  color: rgb(221, 221, 221);
+}
+
+.nav_links > li > a:hover {
+  color: white;
+  transition: color 0.5s ease-out;
+}
+
+.nav_links > li:nth-child(1) {
+  text-decoration: underline;
+}

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "i-know-a-ghost";
+  src: url("../styles/iknowaghost.ttf");
+}
+
+.buttons {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.buttons > button {
+  width: 170px;
+  height: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.buttons > button:nth-child(1) {
+  color: black;
+  background: white;
+}
+
+.buttons > button:nth-child(2) {
+  color: white;
+  background: transparent;
+  border: solid 1px white;
+  text-decoration: underline 1px;
+}
+
+.banner {
+  height: 100vh;
+}
+
+.banner > h1 {
+  position: absolute;
+  font-family: "i-know-a-ghost";
+  color: white;
+  font-size: 80px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  min-width: fit-content;
+}
+
+.banner > img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -10;
+}
+
+.layout {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
